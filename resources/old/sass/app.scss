@@ -1,0 +1,43 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.delete-btn {
+    -webkit-appearance: none;
+    border: 0;
+    background-color: transparent;
+    color: red;
+    position: absolute;
+    right: 0px;
+}
+.buttons-span{
+    position: absolute;
+    right: 10px;
+}
+.buttons-span span form:first-child{
+    margin-right: 10px;
+}
+.buttons-span span form:first-child  {
+    color: #ff2500;
+}
+.buttons-span span:last-child a {
+    color: #008037;
+}
+.edit-btn{
+    -webkit-appearance: none;
+    border: 0;
+    background-color: transparent;
+    color: green;
+    position: absolute;
+    right: 0px;
+}
